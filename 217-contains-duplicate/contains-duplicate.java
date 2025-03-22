@@ -5,7 +5,6 @@ class Solution {
         for (int number : nums) {
             setNums.add(number);
         }
-        System.out.println(setNums.size());
         return !(setNums.size() == nums.length);
     }
 }
